@@ -1,0 +1,31 @@
+body
+{
+    background-color: #bedbbb;
+}
+form input
+{
+    padding: 4px;
+    margin: 9px;
+    text-align: center;
+}
+form textarea
+{
+    margin-left: 100px;
+    margin-top: -12px;
+}
+.submit
+{
+    width: 14%;
+    margin: 32px;
+    padding: 2px;
+    border: 2px solid black;
+    font-size: 26px;
+    background-color: #aaaaeb;
+}
+@media (max-width : 400px)
+{
+    .submit{
+        width: 80%;
+        font-size: 2em;
+    }
+}

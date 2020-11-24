@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #373a40;
+  color: white;
+  font-family: "Texturina", serif;
+}
+.nav {
+  width: 24%;
+  /* border: 2px solid white; */
+  float: right;
+  right: 1em;
+  top: 1em;
+  position: fixed;
+  font-size: 1.4em;
+}
+.nav ul li {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  float: right;
+  padding: 20px;
+}
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+.first {
+}
+.name {
+  font-family: "Alex Brush", cursive;
+  font-size: 810%;
+  float: left;
+  display: inline-block;
+  width: 0;
+}
+.profile {
+  padding-top: 2em;
+  font-size: 18px;
+}
+.profile img {
+  width: 28%;
+}
+.hr1 {
+  width: 10%;
+  border: 5px dotted white;
+}
+.primary {
+  font-size: 2em;
+}
+.images img {
+  width: 7%;
+  padding: 1em;
+}
+.development {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+.development img {
+  width: 26%;
+  float: left;
+  padding-right: 29px;
+}
+.s-head {
+  font-size: 2.5em;
+  color: blue;
+}
+.gamer {
+  width: 50%;
+  text-align: right;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin: auto;
+}
+.gamer img {
+  width: 26%;
+  float: right;
+  padding-left: 29px;
+}
+.com {
+  width: 50%;
+  text-align: left;
+  margin: auto;
+  padding-bottom: 81px;
+}
+.com img {
+  width: 26%;
+  float: left;
+  padding-left: 31px;
+  margin-right: 16px;
+}
+.com a {
+  color: yellow;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
+}
+.experiance {
+  width: 50%;
+  margin: auto;
+}
+@media (max-width: 1000px) {
+  .name {
+    display: none;
+  }
+  .nav {
+    font-size: 0.9em;
+    width: 100%;
+    clear: both;
+    top: 0.4em;
+    right: 0;
+    position: absolute;
+  }
+  .nav ul li {
+    padding: 4px;
+  }
+  .development {
+    width: 90%;
+  }
+  .gamer {
+    width: 90%;
+  }
+  .gamer img {
+    width: 30%;
+  }
+  .com {
+    width: 90%;
+  }
+  .com img {
+    width: 33%;
+  }
+  .s-para1 {
+    margin: 0em;
+    width: 96%;
+    font-size: 1.1em;
+  }
+  .s-para2 {
+    width: 100%;
+    margin-top: 3em;
+    text-align: right;
+  }
+  .experiance {
+    width: 90%;
+    margin: auto;
+  }
+}
