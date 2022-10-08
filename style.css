@@ -41,6 +41,7 @@ body {
 }
 .profile img {
   width: 28%;
+   border-radius: 50%;
 }
 .hr1 {
   width: 10%;
